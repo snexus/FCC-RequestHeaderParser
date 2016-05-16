@@ -8,18 +8,14 @@ Based on Clementine.js boilerplate
 
 ## Quick Start Guide
 
-Visit http://timestampmsnexus.herokuapp.com/
+Visit https://salty-lake-33377.herokuapp.com
 
 ## User stories fullfiled
-1) I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)
+1) I can get the IP address, language and operating system for my browser.
 
-2) If it does, it returns both the Unix timestamp and the natural language form of that date.
-
-3) If it does not contain a date or Unix timestamp, it returns null for those properties.
 
 ##Example Usage
-`http://timestampmsnexus.herokuapp.com/December%2015,%202015`
-`http://timestampmsnexus.herokuapp.com/1450137600`
+`whttps://salty-lake-33377.herokuapp.com/api/whoami`
 
 ##Example output
-'{ "unix": 1450137600, "natural": "December 15, 2015" }'
+'{"ipaddress":"220.253.233.206","language":"en-US","software":"Windows NT 6.1; Win64; x64"}'
