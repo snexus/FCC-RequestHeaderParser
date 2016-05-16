@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<link href="/public/css/main.css" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+<div class="center">
+  <h1 class="heading"> FCC API project: Timestamp microservice</h1>
+  <blockquote>
+    <span>User stories:</span>
+    <p>1) I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)</p>
+    <p>
+      2) If it does, it returns both the Unix timestamp and the natural language form of that date.</p>
+    <p>
+      3) If it does not contain a date or Unix timestamp, it returns null for those properties.</p>
+  </blockquote>
+  <div class="example">
+   <h3>Example usage:</h3>
+            <code>http://timestampmsnexus.herokuapp.com/December%2015,%202015</code><br>
+            <code>http://timestampmsnexus.herokuapp.com/1450137600</code>
+            <h3>Example output:</h3>
+            <code>
+                {
+                  "unix": 1450137600,
+                  "natural": "December 15, 2015"
+                }
+            </code>
+  </div>
+</div>
+</html>
